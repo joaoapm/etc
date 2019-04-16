@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.boot.das_boot.ShipwreckControllerWebIntegrationTest" time="1.169" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.2+9-LTS"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="G:\Trab\spring\ws\das-boot"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.rmi.server.randomIDs" value="true"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="G:\Trab\spring\ws\das-boot"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.2+9-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Joao\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="G:\Trab\spring\ws\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf10866178377715837052.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-11.0.2/bin/server;C:/Program Files/Java/jdk-11.0.2/bin;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.2\bin;C:\Users\Joao\AppData\Local\Microsoft\WindowsApps;;G:\Trab\spring\sts-4.2.0.RELEASE;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Joao"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="Joao"/>
+    <property name="java.class.path" value="G:\Trab\spring\sts-4.2.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_1.11.0.20190220-2117\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.2"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="G:\Trab\spring\ws\das-boot\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2019-01-15"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testListAll" classname="com.boot.das_boot.ShipwreckControllerWebIntegrationTest" time="1.169">
+    <error message="I/O error on GET request for &quot;http://localhost:8080/api/v1/shipwrecks&quot;: Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect" type="org.springframework.web.client.ResourceAccessException"><![CDATA[org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8080/api/v1/shipwrecks": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at java.base/java.net.Socket.connect(Socket.java:540)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1242)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1181)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1075)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1009)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:78)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:613)
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:312)
+	at com.boot.das_boot.ShipwreckControllerWebIntegrationTest.testListAll(ShipwreckControllerWebIntegrationTest.java:28)
+]]></error>
+    <system-out><![CDATA[00:36:58.435 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.boot.das_boot.ShipwreckControllerWebIntegrationTest]
+00:36:58.435 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+00:36:58.435 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+00:36:58.437 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.boot.das_boot.ShipwreckControllerWebIntegrationTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+00:36:58.437 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.boot.das_boot.ShipwreckControllerWebIntegrationTest], using SpringBootContextLoader
+00:36:58.438 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.boot.das_boot.ShipwreckControllerWebIntegrationTest]: class path resource [com/boot/das_boot/ShipwreckControllerWebIntegrationTest-context.xml] does not exist
+00:36:58.439 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.boot.das_boot.ShipwreckControllerWebIntegrationTest]: class path resource [com/boot/das_boot/ShipwreckControllerWebIntegrationTestContext.groovy] does not exist
+00:36:58.439 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.boot.das_boot.ShipwreckControllerWebIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+00:36:58.450 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.boot.das_boot.ShipwreckControllerWebIntegrationTest]
+00:36:58.453 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.boot.das_boot.ShipwreckControllerWebIntegrationTest]: using defaults.
+00:36:58.461 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+00:36:58.469 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1984b1f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3bd323e9, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@39ac0c0a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@c7ba306, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4ff8d125, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6d167f58, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3403e2ac, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@65b104b9, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6c4980d3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@327bcebd, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@19c65cdc, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@74bf1791]
+00:36:58.490 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.boot.das_boot.ShipwreckControllerWebIntegrationTest]
+00:36:58.491 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.boot.das_boot.ShipwreckControllerWebIntegrationTest]
+00:36:58.491 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.boot.das_boot.ShipwreckControllerWebIntegrationTest]
+00:36:58.491 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.boot.das_boot.ShipwreckControllerWebIntegrationTest]
+00:36:58.503 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@b4711e2 testClass = ShipwreckControllerWebIntegrationTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1fa1cab1 testClass = ShipwreckControllerWebIntegrationTest, locations = '{}', classes = '{class com.boot.das_boot.App, class com.boot.das_boot.App}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@8c3b9d, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@26b3fd41, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@175b9425, org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@6a03bcb1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+00:36:58.505 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.boot.das_boot.ShipwreckControllerWebIntegrationTest]
+00:36:58.505 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.boot.das_boot.ShipwreckControllerWebIntegrationTest]
+00:36:58.822 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+00:36:58.824 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+00:36:58.825 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+00:36:58.833 [main] DEBUG org.springframework.core.env.MutablePropertySources - Adding [inline] PropertySource with highest search precedence
+00:36:58.840 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+00:36:58.841 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+2019-04-16 00:36:59.339 ERROR 21400 --- [           main] o.s.b.l.LoggingApplicationListener       : Cannot set level: DEBUG   for 'org.springframework.web'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.3.RELEASE)
+
+2019-04-16 00:36:59.522  INFO 21400 --- [           main] .d.ShipwreckControllerWebIntegrationTest : Starting ShipwreckControllerWebIntegrationTest on DESKTOP-AJL5NTS with PID 21400 (started by Joao in G:\Trab\spring\ws\das-boot)
+2019-04-16 00:36:59.522  INFO 21400 --- [           main] .d.ShipwreckControllerWebIntegrationTest : No active profile set, falling back to default profiles: default
+2019-04-16 00:36:59.593  INFO 21400 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1eba372c: startup date [Tue Apr 16 00:36:59 BRT 2019]; root of context hierarchy
+2019-04-16 00:37:05.532  INFO 21400 --- [           main] o.f.core.internal.util.VersionPrinter    : Flyway 3.2.1 by Boxfuse
+2019-04-16 00:37:07.332  INFO 21400 --- [           main] o.f.c.i.dbsupport.DbSupportFactory       : Database: jdbc:h2:file:~/dasboot (H2 1.4)
+2019-04-16 00:37:07.538  INFO 21400 --- [           main] o.f.core.internal.command.DbValidate     : Validated 2 migrations (execution time 00:00.028s)
+2019-04-16 00:37:07.613  INFO 21400 --- [           main] o.f.core.internal.command.DbMigrate      : Current version of schema "PUBLIC": 2
+2019-04-16 00:37:07.616  INFO 21400 --- [           main] o.f.core.internal.command.DbMigrate      : Schema "PUBLIC" is up to date. No migration necessary.
+2019-04-16 00:37:09.180  WARN 21400 --- [           main] o.a.tomcat.jdbc.pool.ConnectionPool      : Database connection pool evicter thread interval is set to lower than 1 second.
+2019-04-16 00:37:09.629  INFO 21400 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-04-16 00:37:09.725  INFO 21400 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-16 00:37:10.842  INFO 21400 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2019-04-16 00:37:10.844  INFO 21400 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-04-16 00:37:10.848  INFO 21400 --- [           main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2019-04-16 00:37:11.144  INFO 21400 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-04-16 00:37:11.611  INFO 21400 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-04-16 00:37:12.421  WARN 21400 --- [           main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : false;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2019-04-16 00:37:13.188  INFO 21400 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-16 00:37:14.318  INFO 21400 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1eba372c: startup date [Tue Apr 16 00:36:59 BRT 2019]; root of context hierarchy
+2019-04-16 00:37:14.415  INFO 21400 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.boot.das_boot.controller.HomeController.home()
+2019-04-16 00:37:14.418  INFO 21400 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/v1/shipwrecks/{id}],methods=[GET]}" onto public com.boot.das_boot.model.Shipwreck com.boot.das_boot.controller.ShipwreckController.get(java.lang.Long)
+2019-04-16 00:37:14.419  INFO 21400 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/v1/shipwrecks/{id}],methods=[PUT]}" onto public com.boot.das_boot.model.Shipwreck com.boot.das_boot.controller.ShipwreckController.update(java.lang.Long,com.boot.das_boot.model.Shipwreck)
+2019-04-16 00:37:14.419  INFO 21400 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/v1/shipwrecks],methods=[GET]}" onto public java.util.List<com.boot.das_boot.model.Shipwreck> com.boot.das_boot.controller.ShipwreckController.list()
+2019-04-16 00:37:14.420  INFO 21400 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/v1/shipwrecks/{id}],methods=[DELETE]}" onto public com.boot.das_boot.model.Shipwreck com.boot.das_boot.controller.ShipwreckController.delete(java.lang.Long)
+2019-04-16 00:37:14.420  INFO 21400 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/v1/shipwrecks],methods=[POST]}" onto public com.boot.das_boot.model.Shipwreck com.boot.das_boot.controller.ShipwreckController.create(com.boot.das_boot.model.Shipwreck)
+2019-04-16 00:37:14.424  INFO 21400 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-16 00:37:14.425  INFO 21400 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-16 00:37:14.485  INFO 21400 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-16 00:37:14.486  INFO 21400 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-16 00:37:14.541  INFO 21400 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-16 00:37:14.571  INFO 21400 --- [           main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: ServletContext resource [/index.html]
+2019-04-16 00:37:15.011  INFO 21400 --- [           main] .d.ShipwreckControllerWebIntegrationTest : Started ShipwreckControllerWebIntegrationTest in 16.115 seconds (JVM running for 18.722)
+]]></system-out>
+  </testcase>
+</testsuite>
